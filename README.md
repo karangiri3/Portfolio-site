@@ -112,12 +112,6 @@ using that port.
 - **Lucide React + React Icons** — icons
 - **pnpm workspaces** — package management and workspace organization
 
-## A little credit :)
-
-If you use this design or build your portfolio from this project, please add a
-small credit in your portfolio with a link back here:
-
-> Inspired by [Piyush Baraskar Portfolio](https://github.com/PIYUSH-NEXTGEN/Portfolio-site) :)
 
 Thanks for checking out my work, and don't forget to star the repo if you like
 it!
