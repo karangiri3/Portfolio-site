@@ -78,35 +78,65 @@ export interface Achievement {
   detail: ReactNode;
 }
 
-export const CONTACT_INBOX = 'piyush.intech@gmail.com';
+export const CONTACT_INBOX = 'karan.giri.9622@gmail.com';
 
 export const socialLinks: SocialLink[] = [
-  { label: 'GitHub', href: 'https://github.com/PIYUSH-NEXTGEN', Icon: FaGithub, testId: 'link-nav-github', color: '#24292e' },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/piyush-baraskar-994ab6337', Icon: FaLinkedin, testId: 'link-nav-linkedin', color: '#0077b5', contact: true },
-  { label: 'X (Twitter)', href: 'https://x.com/Piyush_NextGen', Icon: FaXTwitter, testId: 'link-nav-x', color: '#000000', contact: true },
-  { label: 'Peerlist', href: 'https://peerlist.io/piyush_nextgen', Icon: SiPeerlist, testId: 'link-nav-peerlist', color: '#00aa45' },
-  { label: 'LeetCode', href: 'https://leetcode.com/u/Piyush_NextGen/', Icon: SiLeetcode, testId: 'link-nav-leetcode', color: '#ffa116' },
-  { label: 'dev.to', href: 'https://dev.to/piyushnextgen', Icon: FaDev, testId: 'link-nav-devto', color: '#000000' },
+  {
+    label: 'GitHub',
+    href: 'https://github.com/karangiri3',
+    Icon: FaGithub,
+    testId: 'link-nav-github',
+    color: '#24292e'
+  },
+  {
+    label: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/karan-giri-17a769384/',
+    Icon: FaLinkedin,
+    testId: 'link-nav-linkedin',
+    color: '#0077b5',
+    contact: true
+  },
 ];
-
 export const projects: Project[] = [
   {
     number: '01',
-    name: 'LUMEN',
-    description: 'A command-line and API-based image analysis tool for quality metrics, channel statistics, dominant colours, and exact-hash duplicate detection.',
-    stack: ['Python', 'NumPy', 'Pandas', 'Pillow', 'Pydantic', 'Typer', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'React + Vite', 'pytest'],
+    name: 'Interactive To-Do List',
+    description: 'A simple and responsive task management application with CRUD functionality.',
+    stack: ['HTML', 'CSS', 'JavaScript'],
     accent: 'blue',
-    url: 'https://lumen-image-analyzer.vercel.app/',
-    github: 'https://github.com/PIYUSH-NEXTGEN/LUMEN',
+    url: '',
+    github: '',
     details: [
-      '**LUMEN** is a full-stack image analysis platform that processes images through a unified Python pipeline to extract **quality, statistical, color, exposure, and duplicate-detection insights**. It evolved from a CLI tool into a complete system with a **FastAPI REST API, PostgreSQL persistence, and React dashboard** for interactive analysis and history.',
+      'Create, edit, complete and delete tasks.',
+      'Clean and responsive user interface.',
+      'Uses browser local storage for saving tasks.'
     ],
     capabilities: [
-      'Performs brightness, contrast, sharpness, colorfulness, entropy, exposure, dominant-color, channel statistics, and histogram analysis, with **SHA-256 exact duplicate detection**.',
-      'Supports searchable image history, detailed reports, side-by-side comparisons, **CSV/JSON exports**, and parallel folder processing using multiple CPU processes.',
-      'Includes **API authentication, validation, rate limiting, automated testing**, and a modular architecture separating processing, API, database, and frontend layers.',
+      'Task management',
+      'CRUD operations',
+      'Local storage persistence'
     ],
-    images: [lumenShot1, lumenShot2, lumenShot3, lumenShot4, lumenShot5],
+    images: [],
+  },
+  {
+    number: '02',
+    name: 'Expense Tracker',
+    description: 'A simple expense tracking application for managing income, expenses and monthly budget.',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    accent: 'green',
+    url: '',
+    github: '',
+    details: [
+      'Track income and expenses.',
+      'Calculate remaining monthly budget.',
+      'Stores data using local storage.'
+    ],
+    capabilities: [
+      'Income tracking',
+      'Expense tracking',
+      'Budget calculation'
+    ],
+    images: [],
   },
 ];
 
